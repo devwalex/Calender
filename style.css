@@ -1,0 +1,85 @@
+* {
+    font-family: Helvetica;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: url('1.jpg');
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(6, 75px) / repeat(6, 1fr);
+    grid-gap: 10px;
+    width: 80%;
+    height: auto;
+    margin: 0 10%;
+    background-color: transparent;
+}
+
+.container div {
+    line-height: 75px;
+    border: 3px solid black;
+}
+
+#twenty-one {
+    grid-column: 3 / 5;
+    grid-row: 4 / 6;
+    line-height: 140px;
+    font-size: 3em;
+    background-color: orangered;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: orangered;
+    margin: 0;
+}
+
+.container div:nth-child(1),
+div:nth-child(6),
+div:nth-child(11),
+div:nth-child(16),
+div:nth-child(26),
+div:nth-child(31) {
+    background-color: #4CCC7F;
+}
+
+.container div:nth-child(2),
+div:nth-child(7),
+div:nth-child(12),
+div:nth-child(17),
+div:nth-child(22),
+div:nth-child(27) {
+    background-color: #726DA8;
+}
+
+.container div:nth-child(3),
+div:nth-child(8),
+div:nth-child(13),
+div:nth-child(18),
+div:nth-child(23),
+div:nth-child(28) {
+    background-color: #F2BD17;
+}
+
+.container div:nth-child(4),
+div:nth-child(9),
+div:nth-child(14),
+div:nth-child(19),
+div:nth-child(24),
+div:nth-child(29) {
+    background-color: #706C6B;
+}
+
+.container div:nth-child(5),
+div:nth-child(10),
+div:nth-child(15),
+div:nth-child(20),
+div:nth-child(25),
+div:nth-child(30) {
+    background-color: #C490D1;
+}
